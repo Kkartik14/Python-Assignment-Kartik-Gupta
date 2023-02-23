@@ -1,0 +1,8 @@
+name=input("Enter your full name : ")
+sap=int(input("Enter your SAP ID : "))
+dob=input("Enter your Date of Birth :")
+add=input("Enter your address : ")
+pin=int(input("Enter your pincode : "))
+prog=input("Enter your programme name : ")
+sem=int(input("Enter your semester [1-8] : "))
+print("Name : {0} \nSAP ID: {1} \nDate Of Birth {2} \nAddress {3} \nPincode {4} \nProgramme {5} \nSemester {6} ".format(name,sap,dob,add,pin,prog,sem))
