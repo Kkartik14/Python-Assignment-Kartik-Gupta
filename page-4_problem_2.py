@@ -1,8 +1,0 @@
-i=int(input("enter value of i: "))
-j=int(input("Enter value of j: "))
-k=1
-for i in range(0,i):
-    for j in range(0,i+1):
-        print(k, end=" ")
-        k=k+1
-    print("\n")
